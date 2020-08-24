@@ -1,0 +1,23 @@
+public class SentimentResult {
+	String sentimentType;
+	int SentimentScore;
+	SentimentClassification sentimentClass;
+	public String getSentimentType() {
+		return sentimentType;
+	}
+	public void setSentimentType(String sentimentType) {
+		this.sentimentType = sentimentType;
+	}
+	public int getSentimentScore() {
+		return SentimentScore;
+	}
+	public void setSentimentScore(int sentimentScore) {
+		this.SentimentScore = sentimentScore;
+	}
+	public SentimentClassification getSentimentClass() {
+		return sentimentClass;
+	}
+	public void setSentimentClass(SentimentClassification sentimentClass) {
+		this.sentimentClass = sentimentClass;
+	}
+}
